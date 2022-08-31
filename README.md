@@ -1,39 +1,39 @@
-Our Shell is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). Additional functions are also included. This program was written entirely in C as a milestone project for Holberton School.
+##  Shell is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). Additional functions are also included. This program was written entirely in C as a milestone project for Holberton School.
 
-Installation
+## Installation
 Clone this repository into your working directory. For best results, files should be compiled with GCC and the following flags: -Wall -Wextra -Werror -pedantic -Wno-format.
-
+##
 Usage
 After compilation, the resulting program can run stand-alone, either in interactive or non-interactive mode.
 
-Interactive Mode
-In interactive mode, simply run the program and wait for the prompt to appear. From there, you can type commands freely, exiting with either the "exit" command or ctrl-D.
+## Interactive Mode
+##In interactive mode, simply run the program and wait for the prompt to appear. From there, you can type commands freely, exiting with either the "exit" command or ctrl-D.
 
-Non-Interactive Mode
-In non-interactive mode, echo your desired command and pipe it into the program like this:
+##Non-Interactive Mode
+##In non-interactive mode, echo your desired command and pipe it into the program like this:
 
-echo "ls" | ./shell
-In non-interactive mode, the program will exit after finishing your desired command(s).
+##echo "ls" | ./shell
+##In non-interactive mode, the program will exit after finishing your desired command(s).
 
-Included Built-Ins
-Our shell has support for the following built-in commands:
-
-Command	Definition
-exit [n]	Exit the shell, with an optional exit status, n.
-env	Print the environment.
-setenv [var][value]	Set an environment variable and value. If the variable exists, the value will be updated.
-unsetenv [var]	Remove an environment variable.
-cd [dir]	Change the directory.
+##included Built-Ins
+##Our shell has support for the following built-in commands:
+##
+## Command	Definition
+##exit [n]	Exit the shell, with an optional exit status, n.
+##env	Print the environment.
+##setenv [var][value]	Set an environment variable and value. If the variable exists, the value will be updated.
+##unsetenv [var]	Remove an environment variable.
+##cd [dir]	Change the directory.
 help [built-in]	Read documentation for a built-in.
-The following built-in commands may be supported in future versions:
+##The following built-in commands may be supported in future versions:
 
 Command	Definition
 alias	Set an Alias.
 history	View the history of the shell.
 Outside Programs
 Our shell can run outside programs by typing their absolute paths (/bin/ls) or the executable name (ls), IF their directory is included in the PATH.
-
-Examples
+##
+###Examples
 $ ls -l
 total 8
 drwxrwxr-x 1 vagrant vagrant Aug 23 13:23 directory_1
@@ -44,7 +44,7 @@ $ hello world
 ./hsh: 1: hello: not found
 $ help env
 env: env
-	Print the environment.
+##	Print the environment.
 Included Files
 main.c - functions for calling the shell and initializing the shell struct
 shell.c - functions for running the basic shell logic
@@ -66,4 +66,4 @@ expansions.c - functions for dealing with the $ expansions
 check_path.c - functions for checking the path of an executable
 error_handler.c - functions for dealing with errors
 clear.c - functions for freeing allocated memory
-main.h - header fiLE
+main.h - header fiLE 
