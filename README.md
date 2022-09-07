@@ -66,4 +66,4 @@ expansions.c - functions for dealing with the $ expansions
 check_path.c - functions for checking the path of an executable
 error_handler.c - functions for dealing with errors
 clear.c - functions for freeing allocated memory
-main.h - header fiLE 
+main.h - header fiLE
