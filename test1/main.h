@@ -18,5 +18,5 @@ int help_func(char **args);
 int cd_func(char **args);
 int num_builtins(void);
 int env_func(char **args);
-
+int push(char **args)
 #endif 
