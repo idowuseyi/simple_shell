@@ -9,7 +9,7 @@ After compilation, the resulting program can run stand-alone, either in interact
 ## Interactive Mode
 ##In interactive mode, simply run the program and wait for the prompt to appear. From there, you can type commands freely, exiting with either the "exit" command or ctrl-D.
 
-##Non-Interactive Mode
+## Non-Interactive Mode
 ##In non-interactive mode, echo your desired command and pipe it into the program like this:
 
 ##echo "ls" | ./shell
